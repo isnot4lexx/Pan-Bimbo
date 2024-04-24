@@ -1,0 +1,268 @@
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+/* header */
+
+header {
+    background-color: #BBBBBB;
+    padding: 20px 0;
+}
+
+.caja {
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 60px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin-left: 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #25327B;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+/* main */
+main {
+    margin-top: 20px;
+}
+
+.principal {
+    background-color: #fefefe;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.titulo-pricipal {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+    color: #EE353A;
+}
+
+.principal p {
+    margin: 0 0 1em;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+/* diferenciales */
+.diferenciales {
+    padding: 3em 0;
+}
+
+.contenido-diferenciales {
+    width: 640px;
+    margin: 0 auto;
+    margin-right: 24%;
+}
+
+.lista-diferenciales {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.items {
+    line-height: 1.5;
+}
+
+.items::before {
+    content: "☆";
+    color: #EE353A;
+}
+
+.imagen-diferenciales {
+    width: 60%;
+    transition: 400ms;
+    box-shadow: 10px 10px 10px rgb(50, 50, 50, 0.5);
+}
+
+/* mision */
+.mision {
+    width: 640px;
+    margin-left: 22%;
+}
+
+.contenido-mision {
+    margin-top: 30px;
+}
+
+.video {
+    padding: 40px;
+    width: 800px;
+    margin: 0 auto;
+}
+
+/* footer */
+footer {
+    text-align: center;
+    background: url(img/bg.jpg);
+    padding: 40px;
+}
+
+.osito {
+    width: 200px;
+}
+
+.copyrigth {
+    color: white;
+    font-size: 13px;
+}
+
+.filosofía {
+    margin: 0 0 1em;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+
+/* css para productos */
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    gap: 120px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.productogrid {
+    width: 320px;
+    height: 360px;
+    border: 6px solid #EE353A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.productogrid:hover {
+    background-color: #FF6969;
+    cursor: pointer;
+}
+
+.img-productos {
+    padding: 30px;
+} 
+
+.descripcion-producto {
+    padding: 14px;
+    font-size: 22px;
+    color: #25327B;
+}
+
+.descripcion-completa {
+    font-size: 20px;
+    text-align: center;
+}
+
+/* ofertas */
+.img-oferta {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;    
+}
+
+/* contacto */
+.contenedor-mapas {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    gap: 100px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.mapas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padron{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.check{
+    margin: 20px 0;
+}
+
+.enviar {
+    width: 40%; 
+    padding:15px 0; 
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: orange;
+    border: transparent;
+    border-radius: 6px;
+    transition: 1s all;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.enviar:hover {
+    background-color: darkorange;
+    transform: scale(1.2);
+}
+
+table {
+    margin: 40px 40px;
+}
+
+thead {
+    background-color: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 8px 15px;
+}
